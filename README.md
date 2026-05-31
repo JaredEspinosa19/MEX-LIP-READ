@@ -4,7 +4,7 @@
 
 The dataset was recorded by **24 participants** and contains **11,009 labeled motion sequences**, each represented as 18 consecutive frames extracted from video. Sequences are organized into **155 syllabic classes** across three phonetic categories, totaling over **198,000 images** at a uniform resolution of 128×128 pixels. The dataset is intended for tasks such as syllable-level classification, sequence modeling, and the development of lip reading systems for Spanish speakers.
 
-![Examples of frames extracion from a clip.](img/Frame%20Extraction.jpg)
+<p align="center"><img src="img/Frame%20Extraction.jpg" width="80%"></p>
 
 ---
 
@@ -48,7 +48,7 @@ Dataset/
     │   └── BLU/
     └── ... (BR, CL, CR, DR, FL, FR, GL, GR, PL, PR, TL, TR)
 ```
-![Dataset structure](img/Frames%20Dataset%20Diagram.png)
+<p align="center"><img src="img/Frames%20Dataset%20Diagram.png" width="80%"></p>
 ---
 
 ## Phonetic Categories
@@ -59,7 +59,7 @@ Five classes corresponding to the Spanish vowels: **A, E, I, O, U**.
 
 Each sequence folder is named with the pattern `<ParticipantID>_<vowel>_<repetition>` (e.g., `P10_a_1`).
 
-![Vowels structure](img/Vowels%20-%20Diagram.png)
+<p align="center"><img src="img/Vowels%20-%20Diagram.png" width="80%"></p>
 
 ### Consonants
 
@@ -72,7 +72,7 @@ Each sequence folder is named with the pattern `<ParticipantID>_<vowel>_<repetit
 
 Example class names: `BA`, `BE`, `BI`, `BO`, `BU`, `CHA`, `CHE`, ...
 
-![Consonant structure](img/Consonants%20-%20Diagram.png)
+<p align="center"><img src="img/Consonants%20-%20Diagram.png" width="80%"></p>
 ### Consonant Clusters
 
 13 two-consonant clusters combined with each of the 5 vowels, yielding **65 classes**:
@@ -81,7 +81,7 @@ Example class names: `BA`, `BE`, `BI`, `BO`, `BU`, `CHA`, `CHE`, ...
 
 Example class names: `BLA`, `BLE`, `BRI`, `CRO`, `TRU`, ...
 
-![Consonant Clusters structure](img/Sinfones%20-%20Diagram.png)
+<p align="center"><img src="img/Sinfones%20-%20Diagram.png" width="80%"></p>
 ---
 
 ## Frame Sequences
