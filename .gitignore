@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data & large files
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.7z
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs & temp
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo

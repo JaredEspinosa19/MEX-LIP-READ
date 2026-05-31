@@ -148,7 +148,7 @@ A subset of the dataset is available directly in the `Dataset/` folder of this r
 
 The complete dataset is not publicly hosted due to its size. To request access, send an email to one of the following addresses with a brief description of your intended use:
 
-- `ejec19@example.com`
+- `ejec19@gmail.com`
 
 **Subject:** `[MEX-LIP-READ] Dataset Access Request`
 
